@@ -1,0 +1,200 @@
+.text-align {
+  text-align: center;
+}
+
+.w {
+  width: 220px;
+}
+
+.font-size {
+  font-size: 22px;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.font-size-addproject {
+  font-size: 13px;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+.font-size-status-now {
+  font-size: 22px;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.font-size-status{
+  font-size: 22px;
+  font-family: 'Noto Sans Thai', sans-serif;
+  color: gray;
+  opacity: 0.6;
+}
+
+.font-size-status-old{
+  color: gray;
+  opacity: 0.6;
+}
+
+.font-custom {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.font-custom-regular {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 600;
+}
+
+.font-custom-header-table {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 40px;
+  /* font-weight: 900; */
+}
+
+.font-size-small {
+  font-size: 20px;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.font-size-home-header {
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.font-size-home {
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+
+/* CSS */
+.button-76 {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #f6ee9b, #f6ee9b, #f6ee9b);
+  border: 0;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  /* box-align: center; */
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 2px,rgba(45, 35, 66, .3) 0 2px 6px -3px,rgba(58, 65, 111, .5) 0 -2px 0 inset;
+  justify-content: center;
+  color: #f19f11;
+  cursor: pointer;
+  font-family: 'Noto Sans Thai', sans-serif;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+  line-height: 1.75rem;
+  /* 28px */
+  padding: 1rem 1.25rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-76:hover {
+  box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+  .button-76 {
+    font-size: 1.5rem;
+    /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem;
+    /* 32px */
+  }
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green;  */
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-76-home {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #f6ee9b, #f6ee9b, #f6ee9b);
+  border: 0;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  /* box-align: center; */
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 2px,rgba(45, 35, 66, .3) 0 2px 6px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  justify-content: center;
+  color: #f19f11;
+  cursor: pointer;
+  font-family: 'Noto Sans Thai', sans-serif;
+  /* font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+  line-height: 1.75rem;
+  /* 28px */
+  padding: 1rem 1.25rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-76-home:hover {
+  box-shadow: rgba(45, 35, 66, .3) 0 2px 6px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+}
+
+@media (min-width: 1024px) {
+  .button-76-home {
+    font-size: 1.5rem;
+    /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem;
+    
+    /* 32px */
+  }
+}
+
+
+
+/* CSS */
+.Navbar {
+  /* align-items: center; */
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #519259 0, #519259 100%);
+  
+  border: 0;
+  /* border-radius: 6px; */
+  /* box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset; */
+  box-sizing: border-box;
+  color: #064635;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Noto Sans Thai', sans-serif;
+  height: 64px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 40px;
+}
